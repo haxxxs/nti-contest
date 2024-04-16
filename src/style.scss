@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header{
+    display: flex;
+    width: 1560px;
+    height: 228px;
+    background-color: red;
+    flex-direction: column;
+    .upperHeader{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 48px;
+        background-color: blue;
+        .left{
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #3B3C40;
+            align-items: center;
+            .shopHeader{
+                display: flex;
+                align-items: center;
+                width: 109px;
+                height: 24px;
+                background-color: aqua;
+                gap: 5px;
+            }
+        }
+        .right{
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            font-size: 18px;
+        }
+    }
+    .lowerHeader{
+        height: 180px;
+        background-color: blueviolet;
+    }
+}
